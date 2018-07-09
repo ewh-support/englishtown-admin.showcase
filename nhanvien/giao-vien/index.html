@@ -17,13 +17,23 @@
                 item["RecordID"] = "1"; 
                 item["slug"] = "user04";
                 item["title"] = "Giáo Viên 04 ";
+                item["diachi"] = "";
                 item["date"] = "11-03-2018 10:40";
                 item["status"] = "Teacher";
                 listData.push(item);
                 item = {};
                 item["RecordID"] = "2"; 
+                item["slug"] = "hoang-vu-bao";
+                item["title"] = "Hoàng Vũ Bảo";
+                item["diachi"] = "Quận 7";
+                item["date"] = "09-07-2018 11:44";
+                item["status"] = "Teacher";
+                listData.push(item);
+                item = {};
+                item["RecordID"] = "3"; 
                 item["slug"] = "nhan-vien-02";
                 item["title"] = "Giáo Viên 02";
+                item["diachi"] = "";
                 item["date"] = "Invalid date";
                 item["status"] = "Teacher";
                 listData.push(item);
@@ -70,6 +80,10 @@
                 {
 					field: "title",
 					title: "Tên Teacher"
+                },
+                {
+					field: "diachi",
+					title: "Đia Chỉ"
                 },
                 {
 					field: "status",

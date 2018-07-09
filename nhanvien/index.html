@@ -16,7 +16,8 @@
                 item = {};
                 item["RecordID"] = "1"; 
                 item["slug"] = "nguyen-b";
-                item["title"] = "Nguyễn B";
+                item["title"] = "Nguyễn Bảo";
+                item["diachi"] = "305 Hồng Lạc";
                 item["date"] = "24-11-2017 11:11";
                 item["status"] = "Employee";
                 listData.push(item);
@@ -24,6 +25,7 @@
                 item["RecordID"] = "2"; 
                 item["slug"] = "nguyen-van-a";
                 item["title"] = "Nguyễn Văn A";
+                item["diachi"] = "";
                 item["date"] = "24-11-2017 11:11";
                 item["status"] = "Employee";
                 listData.push(item);
@@ -31,6 +33,7 @@
                 item["RecordID"] = "3"; 
                 item["slug"] = "trinh-ngoc-quoc-bao";
                 item["title"] = "Trịnh Ngọc Quốc Bảo";
+                item["diachi"] = "";
                 item["date"] = "16-11-2017 04:26";
                 item["status"] = "Employee";
                 listData.push(item);
@@ -38,6 +41,7 @@
                 item["RecordID"] = "4"; 
                 item["slug"] = "user04";
                 item["title"] = "Giáo Viên 04 ";
+                item["diachi"] = "";
                 item["date"] = "11-03-2018 10:40";
                 item["status"] = "Teacher";
                 listData.push(item);
@@ -45,20 +49,31 @@
                 item["RecordID"] = "5"; 
                 item["slug"] = "user03";
                 item["title"] = "Nhân Viên 03 | Giám Đốc";
+                item["diachi"] = "";
                 item["date"] = "11-03-2018 10:39";
                 item["status"] = "Ban Giám Đốc ";
                 listData.push(item);
                 item = {};
                 item["RecordID"] = "6"; 
-                item["slug"] = "nhan-vien-02";
-                item["title"] = "Giáo Viên 02";
-                item["date"] = "Invalid date";
+                item["slug"] = "hoang-vu-bao";
+                item["title"] = "Hoàng Vũ Bảo";
+                item["diachi"] = "Quận 7";
+                item["date"] = "09-07-2018 11:44";
                 item["status"] = "Teacher";
                 listData.push(item);
                 item = {};
                 item["RecordID"] = "7"; 
+                item["slug"] = "nhan-vien-02";
+                item["title"] = "Giáo Viên 02";
+                item["diachi"] = "";
+                item["date"] = "Invalid date";
+                item["status"] = "Teacher";
+                listData.push(item);
+                item = {};
+                item["RecordID"] = "8"; 
                 item["slug"] = "nhan-vien-01";
                 item["title"] = "Nhân Viên 01";
+                item["diachi"] = "12 Đặng Thai Mai";
                 item["date"] = "Invalid date";
                 item["status"] = "Employee";
                 listData.push(item);
@@ -105,6 +120,10 @@
                 {
 					field: "title",
 					title: "Tên Employee"
+                },
+                {
+					field: "diachi",
+					title: "Đia Chỉ"
                 },
                 {
 					field: "status",
